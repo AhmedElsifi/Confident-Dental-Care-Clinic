@@ -54,7 +54,7 @@ project/
 ## 🔧 How to Run
 1. Clone the repository:
 ```bash
-   git clone https://github.com/your-username/confident-dental-care-clinic.git
+   git clone [https://github.com/your-username/confident-dental-care-clinic.git](https://github.com/AhmedElsifi/Confident-Dental-Care-Clinic.git)
 ```
 
 2. Open `index.html` in your browser.
