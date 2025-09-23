@@ -526,3 +526,289 @@ section {
 .treatment:hover {
   scale: 1.1;
 }
+
+.statistics-section {
+  max-width: 1320px;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0px 0px 43.1px 0px #45cdf726;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.statistics-section h3 {
+  font-size: 113px;
+  font-weight: 600;
+  font-family: "Source Serif Pro";
+  color: #8fe1fa;
+  margin: 0px;
+  padding: 20px;
+}
+
+.statistic {
+  height: 292px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+}
+
+.statistic:hover {
+  scale: 1.1;
+}
+
+.statistic p {
+  position: absolute;
+  margin: 0px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.statistics-section hr {
+  height: 124px;
+  margin: auto 0px;
+  border: #c2d1ff 0.5px solid;
+}
+
+.card {
+  background-color: #8fe1fa;
+  border-radius: 15px;
+  height: 350px;
+  width: 320px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.card.active {
+  transform: translateY(-50px);
+}
+
+.card img {
+  width: 290px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.card-details {
+  border-radius: 10px;
+  box-shadow: 0px 0px 22.8px 0px #4a6ea54f;
+  background-color: #ffffff;
+  margin: auto;
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  bottom: 15px;
+  left: 50%;
+  padding: 20px;
+  transition-duration: 0.3s;
+  transform: translateX(-50%);
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-details h4 {
+  color: var(--hover-color-1);
+  margin: 0px 0px 8px 0px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.card-details p {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.card-details .socials {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 0px 0px;
+}
+
+.card-details:hover {
+  height: 150px;
+}
+
+.card-details .socials a {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: var(--hover-color-1);
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--hover-color-1) 1px solid;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.card-details .socials a:hover {
+  color: #ffffff;
+  background-color: var(--hover-color-1);
+  border: var(--hover-color-1) 1px solid;
+}
+
+.cards-list {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  height: 350px;
+  gap: 40px;
+  transition: transform 0.5s ease;
+}
+
+.our-best-dentist-section {
+  position: relative;
+}
+
+.our-best-dentist-section h2 {
+  color: #ff9140;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.our-best-dentist-section h3 {
+  color: var(--Text-color-1);
+  font-family: "Source Serif Pro";
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.our-best-dentist-section h3 span {
+  font-family: "Source Serif Pro";
+  font-size: 45px;
+  color: var(--hover-color-1);
+  font-weight: 700;
+}
+
+.track-container {
+  position: relative;
+  width: 1080px;
+  margin: auto;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.dentist-slider-buttons {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: var(--hover-color-1);
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--hover-color-1) 1px solid;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.dentist-slider-buttons:hover {
+  color: #ffffff;
+  background-color: var(--hover-color-1);
+  border: var(--hover-color-1) 1px solid;
+}
+
+.dentist-slider-buttons[direction="right"] {
+  right: 0px;
+}
+
+.dentist-slider-buttons[direction="left"] {
+  left: 0px;
+}
+
+.card:first-of-type {
+  margin-left: 20px;
+}
+
+.card:last-of-type {
+  margin-right: 20px;
+}
+
+.book-dental-section {
+  background-color: #c7f0fd;
+  border-radius: 25px;
+  width: 1320px;
+  height: 500px;
+  display: flex;
+  padding: 60px;
+  position: relative;
+}
+
+.book-dental-section img {
+  position: absolute;
+  right: -70px;
+  bottom: -170px;
+  clip-path: inset(0 70px 170px 0);
+}
+
+.book-dental-text h2 {
+  color: #ff9140;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.book-dental-text h3 {
+  color: var(--Text-color-1);
+  font-family: "Source Serif Pro";
+  font-size: 72px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin: 0px;
+}
+
+.book-dental-text h3 span {
+  font-family: "Source Serif Pro";
+  font-size: 72px;
+  color: var(--hover-color-1);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 5px;
+}
+
+.book-dental-text {
+  width: 600px;
+}
+
+.book-dental-text button {
+  background-color: var(--hover-color-1);
+  color: #ffffff;
+  padding: 10.5px 26px;
+  border-radius: 192px;
+  border: #3366ff 1px solid;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 0px 14.7px 0px #3177e10d;
+}
+
+.book-dental-text button:hover {
+  background-color: #ffffff;
+  color: var(--hover-color-1);
+}
