@@ -812,3 +812,117 @@ section {
   background-color: #ffffff;
   color: var(--hover-color-1);
 }
+
+.testimonial {
+  width: 100%;
+  max-width: 1440px;
+  height: 980px;
+  background-color: #eff6ff;
+  border-radius: 25px;
+  padding: 100px 120px;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial .main-img {
+  width: 601px;
+  height: 587px;
+  object-fit: cover;
+}
+
+.testimonial-review {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 22px 22px 22px;
+  position: relative;
+  width: 306px;
+  height: 238px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25.9px 0px #0e295110;
+  background-color: #ffffff;
+}
+
+.testimonial-review i {
+  color: #ff9140;
+  font-size: 20px;
+}
+
+.testimonial-review i:last-of-type {
+  color: #ffd3b3;
+}
+
+.testimonial-review img {
+  width: 66px;
+  height: 59px;
+  border-radius: 7px;
+}
+
+.testimonial-review .image-container {
+  position: absolute;
+  left: 22px;
+  top: -32px;
+  width: 78px;
+  height: 71px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7f0fd;
+}
+
+.testimonial-review h5 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--hover-color-1);
+  margin: 0px;
+}
+
+.testimonial-review h6 {
+  color: #7688b6;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.testimonial h2 {
+  color: #ff9140;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.testimonial h3 {
+  color: var(--Text-color-1);
+  font-family: "Source Serif Pro";
+  font-size: 46px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin: 0px;
+}
+
+.testimonial h3 span {
+  font-family: "Source Serif Pro";
+  font-size: 46px;
+  color: var(--hover-color-1);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 5px;
+}
+
+.testimonial-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 20px;
+  align-items: start;
+}
+
+
+.testimonial-review:nth-child(1),
+.testimonial-review:nth-child(3) {
+  margin-top: 30px;
+}
