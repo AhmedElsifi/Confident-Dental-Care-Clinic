@@ -844,6 +844,11 @@ section {
   border-radius: 12px;
   box-shadow: 0px 0px 25.9px 0px #0e295110;
   background-color: #ffffff;
+  transition-duration: 0.3s;
+}
+
+.testimonial-review:hover{
+  scale: 1.1;
 }
 
 .testimonial-review i {
