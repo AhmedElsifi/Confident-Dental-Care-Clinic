@@ -65,6 +65,7 @@ project/
 
 * Add appointment booking form
 * Enhance animations and transitions
+* Creating a custom css library for this website design to be reusable anywhere
 
 ---
 
