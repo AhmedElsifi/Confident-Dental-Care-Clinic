@@ -978,7 +978,7 @@ section {
 .our-blog-cards.main-card {
   height: 571px;
   width: 593px;
-  background-image: url(../assets/images/our-blog-image-1.png);
+  background-image: url("../assets/images/our-blog-image-1.png");
   object-fit: cover;
   border-radius: 20px;
 }
@@ -996,11 +996,11 @@ section {
 }
 
 .our-blog-cards.secondary-card:first-child {
-  background-image: url(../assets/images/our-blog-image-2.png);
+  background-image: url("../assets/images/our-blog-image-2.png");
 }
 
 .our-blog-cards.secondary-card:last-child {
-  background-image: url(../assets/images/our-blog-image-3.png);
+  background-image: url("../assets/images/our-blog-image-3.png");
 }
 
 .our-blog-cards {
