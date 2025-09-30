@@ -243,7 +243,7 @@
     position: absolute;
     max-width: 360px;
     right: 50%;
-    transform: translateX(50%);
+    transform: translateX(50%) !important;
   }
 
   .book-dental-text {
@@ -502,7 +502,7 @@
     position: absolute;
     max-width: 450px;
     right: 50%;
-    transform: translateX(50%);
+    transform: translateX(50%) !important;
   }
 
   .book-dental-text {
@@ -688,7 +688,7 @@
   .book-dental-section img {
     position: absolute;
     right: 50%;
-    transform: translateX(50%);
+    transform: translateX(50%) !important;
   }
 
   .book-dental-text {
