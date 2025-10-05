@@ -74,7 +74,3 @@ project/
 **Confident | Dental Care Clinic Landing Page**
 Built with ❤️ by Ahmed Elsifi
 
-
----
-
-👉 Do you want me to also **write the GitHub tags/topics (SEO keywords)** for this repo (like `#landing-page`, `#responsive-design`, `#dental-clinic`), so it’s easier to find?
